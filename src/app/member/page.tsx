@@ -14,7 +14,7 @@ export default function MemberPage() {
         <li><Link href="/member/5">JinWook</Link></li>
         <li><Link href="/member/6">Thai</Link></li>
         <li><Link href="/member/7">Nex</Link></li>
-        <li><Link href="/member/8">Phutatchai 8</Link></li>
+        <li><Link href="/member/8">Phutatchai</Link></li>
         <li><Link href="/member/9">Copper</Link></li>
         <li><Link href="/member/10">AA</Link></li>
         <li><Link href="/member/11">Jung</Link></li>
