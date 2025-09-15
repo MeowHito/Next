@@ -7,18 +7,24 @@ export default function MemberPage() {
     <ul>
         {/* ให้ Link-->หน้ารายละเอียดสมาชิกแต่ละคนใส่รูปด้วย */}
         
-        <li><Link href="/member/1">Alan</Link></li>
-        <li><Link href="/member/2">Marc</Link></li>
-        <li><Link href="/member/3">Khunpol</Link></li>
-        <li><Link href="/member/4">Heart</Link></li>
-        <li><Link href="/member/5">JinWook</Link></li>
-        <li><Link href="/member/6">Thai</Link></li>
-        <li><Link href="/member/7">Nex</Link></li>
-        <li><Link href="/member/8">Phutatchai</Link></li>
-        <li><Link href="/member/9">Copper</Link></li>
-        <li><Link href="/member/10">AA</Link></li>
-        <li><Link href="/member/11">Jung</Link></li>
-        <li><Link href="/member/12">Peemwasu</Link></li>
+        {[
+          { id: 1, name: "Alan" },
+          { id: 2, name: "Marc" },
+          { id: 3, name: "Khunpol" },
+          { id: 4, name: "Heart" },
+          { id: 5, name: "JinWook" },
+          { id: 6, name: "Thai" },
+          { id: 7, name: "Nex" },
+          { id: 8, name: "Phutatchai" },
+          { id: 9, name: "Copper" },
+          { id: 10, name: "AA" },
+          { id: 11, name: "Jung" },
+          { id: 12, name: "Peemwasu" },
+        ].map((member) => (
+          <li key={member.id}>
+            <Link href={`/member/${member.id}`}>{member.name}</Link>
+          </li>
+        ))}
     </ul>
 
     </>
