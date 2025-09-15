@@ -34,7 +34,9 @@ export default function RootLayout({
         <Navbar />
         
         {children}
-        <footer/>
+
+        <Footer txt="&copy; 2025 Coputer Science. All rights" />
+
       </body>
     </html>
   );
