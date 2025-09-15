@@ -7,7 +7,8 @@ export default function AdminLayout({
 }) {
   return (
     <div>
-        <h1 className="text-2xl">Admin Dashboard</h1>
+        <h2 className="text-2xl">Admin Page</h2>
+        {children}
     </div>
   );
 }
